@@ -23,6 +23,16 @@ var css = `
     position: fixed;
     bottom: 0;
     left: 0;
+    min-height: 96px;
+    min-width: 100px;
+    width: 100px !important;
+    height: 120px !important;
+    display: initial !important;
+    border: none !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;        
   }
 `;
 style.appendChild(document.createTextNode(css)); // Add CSS if needed
